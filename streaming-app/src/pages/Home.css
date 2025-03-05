@@ -1,0 +1,132 @@
+.home {
+    text-align: center;
+    padding: 20px;
+    background-color: #141414;
+    color: white;
+  }
+  
+  .page-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ff6347;
+    letter-spacing: 5px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  .movie-results {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Se hace un ajuste a las tarjetas */
+    gap: 30px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .movie-card {
+    background-color: #1c1c1c;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #333;
+  }
+  
+  .movie-card h3 {
+    font-size: 1.4rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .movie-card p {
+    font-size: 0.9rem;
+    color: #bbb;
+    margin-bottom: 15px;
+  }
+  
+  .no-results {
+    color: #ff4d4d;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  /* Estilos de la barra de búsqueda y los botones */
+  .search-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Mayor espacio entre los botones */
+    margin-bottom: 30px; /* Ajuste de margen */
+  }
+  
+  .search-container button {
+    padding: 12px 25px; /* Tamaño de botón más grande */
+    font-size: 1.2rem;
+    border-radius: 8px; /* Borde más suave */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Agregar transición de transform */
+    border: none;
+    background-color: #ff6347; /* Color base para el botón de búsqueda */
+    color: white;
+  }
+  
+  /* Estilo para el botón de búsqueda al pasar el ratón */
+  .search-container button:hover {
+    background-color: #e5533d; /* Cambiar color al hacer hover */
+    transform: scale(1.05); /* Pequeño zoom al pasar el ratón */
+  }
+  
+  /* Estilo para el botón "Películas Online" */
+  .online-movies-button {
+    padding: 12px 25px;
+    background-color: #ff5733;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .online-movies-button:hover {
+    background-color: #c0392b;
+    transform: scale(1.05); /* Efecto de zoom en hover */
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ffcc00;
+  }
+  
+  /* Estilos para el footer */
+  .footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 10px 0;
+    margin-top: 40px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer p {
+    margin: 5px 0;
+    font-size: 1rem;
+  }
+  
+  .footer p:last-child {
+    font-size: 0.8rem;
+    color: #888;
+  }
+  

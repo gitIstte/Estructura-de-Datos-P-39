@@ -1,0 +1,81 @@
+/* Register.css */
+.register-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../assets/images/cineverse-background.jpg') center center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .register-title {
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  form {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 40px 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  input,
+  button {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+  }
+  
+  input {
+    background-color: rgba(255, 255, 255, 0.15);
+    color: white;
+  }
+  
+  input:focus {
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  button {
+    background-color: #e50914;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #f40612;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  .login-link {
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 15px;
+  }
+  
+  .login-link a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+  
